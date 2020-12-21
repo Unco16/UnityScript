@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class OffsetGrab2 : XRGrabInteractable
+public class OffsetGrab : XRGrabInteractable
 {
     private Vector3 interactorPosition = Vector3.zero;
     private Quaternion interactorRotation = Quaternion.identity;
